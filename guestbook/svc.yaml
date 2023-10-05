@@ -4,8 +4,7 @@ metadata:
   name: guestbook-ui
 spec:
   ports:
-  - port: 80
+  - port: 8080
     targetPort: 8080
   selector:
     app: guestbook-ui
-  type: LoadBalancer
